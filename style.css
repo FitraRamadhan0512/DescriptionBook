@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    background-color: #fff;
+    margin: auto;
+}
+.content img {
+    display: flex;
+    float: left;
+    width: 8%;
+    margin: 42px 35px 25px 75px;
+    border-radius: 5px;
+}
+.judul {
+    position: relative;
+    top: 70px;
+    margin-bottom: 15%;
+}
+.judul h3 {
+    color: #514a4a;
+    margin-bottom: 8px;
+}
+.judul h1 {
+    margin-bottom: 8px;
+}
+.judul h2 {
+    color: #514a4a;
+    margin-bottom: 8px;
+}
+.judul button {
+    background-color: dodgerblue;
+    padding: 8px;
+    border-radius: 5px;
+    position: absolute;
+    right: 9.7%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease, color 0.3s ease;
+}
+.judul hr {
+    position: absolute;
+    left: 5.2%;
+    top: 175%;
+    width: 85%;
+    border: 2px solid #333;
+}
+.content p {
+    position: fixed;
+    display: block;
+    left: 75px;
+    top: 40%;
+    width: 85%;
+    text-align: justify;
+}
+.teks {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #9f9999;
+}
+@media (max-width:768px) {
+    .judul hr {
+        position: static;
+        display: flexbox;
+        left: 5px;
+        width: 90%;
+        margin-top: 70px;
+    }
+    .judul button {
+        top: 15px;
+        width: 70px;
+        margin: 55px 0px 25px;
+    }
+    .content img {
+        margin: 100px 20px;
+        width: 15%;
+        margin-bottom: 3%;
+        border-radius: 5px;
+    }
+    .judul {
+        position: absolute;
+        left: 20px;
+        top: 110px;
+        font-size: 10px;
+        width: 100%;
+    }
+    .judul h3 {
+        margin: 5px 100px;
+    }
+    .judul h1 {
+        margin: 5px 100px;
+    }
+    .judul h2 {
+        margin: 5px 100px;
+    }
+    .content p {
+        position: absolute;
+        left: 20px;
+        width: 90%;
+    }
+}
