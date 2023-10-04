@@ -8,12 +8,12 @@ Berikut adalah hal yang harus diperhatikan untuk pengumpulan tugas ini:
 6. Silakan commit pada repository anda (hasil fork)
    * Lakukan beberapa commit dengan pesan yang bermakna, contoh: “add register form”, “fix logout bug”, jangan seperti “final”, “benerin dikit”, “fix bug”.
    * Disarankan untuk tidak melakukan commit dengan perubahan yang besar karena akan mempengaruhi penilaian (contoh: hanya melakukan satu commit kemudian dikumpulkan).
-Commit dari setiap anggota tim akan mempengaruhi penilaian.
-Jadi, setiap anggota tim harus melakukan commit yang berpengaruh terhadap proses pembuatan aplikasi.
-Sebagai panduan bisa mengikuti semantic commit.
-Buatlah file README yang berisi:
-Deskripsi aplikasi web
-Daftar requirement
+   * Commit dari setiap anggota tim akan mempengaruhi penilaian.
+   * Jadi, setiap anggota tim harus melakukan commit yang berpengaruh terhadap proses pembuatan aplikasi.
+   * Sebagai panduan bisa mengikuti semantic commit.
+7. Buatlah file README yang berisi:
+   * Deskripsi aplikasi web
+   * Daftar requirement
 Cara instalasi
 Cara menjalankan server
 Screenshot tampilan aplikasi (tidak perlu semua kasus, minimal 1 per halaman), dan
